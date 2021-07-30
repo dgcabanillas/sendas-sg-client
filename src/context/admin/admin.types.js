@@ -1,0 +1,1 @@
+export const SET_ADMIN_MODE = 'SET_ADMIN_MODE';

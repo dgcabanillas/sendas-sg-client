@@ -1,0 +1,33 @@
+[build]
+    comand  = "npm run build && npm run export"
+    publish = "out"
+
+[[redirects]]
+    from    = "/admin/course/*"
+    to      = "/admin/course/[id_curso].html"
+    status  = 200
+    force   = true
+
+[[redirects]]
+    from    = "/auth/confirm-account/*"
+    to      = "/auth/confirm-account/[token].html"
+    status  = 200
+    force   = true
+
+[[redirects]]
+    from    = "/auth/reset-password/*"
+    to      = "/auth/reset-password/[token].html"
+    status  = 200
+    force   = true
+
+[[redirects]]
+    from    = "/home/opened-course/*"
+    to      = "/home/opened-course/[id_curso_aperturado].html"
+    status  = 200
+    force   = true
+
+[[redirects]]
+    from    = "/user/information/*"
+    to      = "/user/information/[id_usuario].html"
+    status  = 200
+    force   = true
